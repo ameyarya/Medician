@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_covid">
+
+    <TextView
+        android:id="@+id/noInternet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="40dp">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp" />
+
+            <Button
+                android:id="@+id/IDsendButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="Send"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingStart="20dp"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp">
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutHeadings"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/countryHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Country:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/casesHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cases:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/todayCasesHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Today's Cases:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/deathsHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Deaths:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/todayDeathsHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Today's Deaths:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/recoveredHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Recovered:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/activeHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Active:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/criticalHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Critical:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/casesPerOneMillionHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cases/Million:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/deathsPerOneMillionHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Deaths/Million:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/totalTestsHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Total Tests:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/testsPerOneMillionHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tests/Million:"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutData"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/country"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:freezesText="true"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/cases"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:freezesText="true"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/todayCases"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:freezesText="true"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/deaths"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:freezesText="true"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/todayDeaths"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:freezesText="true"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/recovered"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:freezesText="true"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/active"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:freezesText="true"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/critical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:freezesText="true"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/casesPerOneMillion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:freezesText="true"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/deathsPerOneMillion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:freezesText="true"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/totalTests"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:freezesText="true"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/testsPerOneMillion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:freezesText="true"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/covidApiProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

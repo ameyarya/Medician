@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Medician</string>
+    <string name="chat_title">Chat</string>
+    <string name="action_logout">Log Out</string>
+    <string name="action_profile">Profile</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_appointments">Appointments</string>
+    <string name="menu_reminders">Reminders</string>
+    <string name="menu_chat_with_a_doctor">Chat</string>
+    <string name="menu_Prescriptions">Prescriptions</string>
+    <string name="menu_myDocs">My Doctors</string>
+    <string name="menu_contactUs">Contact Us</string>
+    <string name="menu_covid">COVID-19</string>
+    <string name="menu_reports">Reports</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_find_a_doctor">Find a Doctor</string>
+    <string name="maps_api_key">AIzaSyDV4Hv1WpxDWjSBSP2TD59-ZwYqc5eoqak</string>
+    <string name="doctorDetailsTextFormat">%s\n%s\n%s\nYou are %.2f miles away</string>
+    <string name="title_activity_splash_screen2">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="contactUsMessage">Medician is an app that helps connect patients and doctors like never before, if you have queries please contact the developers below</string>
+    <string name="no_network_connection_message">No Network Connection!</string>
+    <string-array name="reportTypes">
+        <item>CT Scan</item>
+        <item>MRI Scan</item>
+        <item>X-Ray</item>
+        <item>Pathology Report</item>
+        <item>Blood Report</item>
+        <item>Ultrasound Report</item>
+        <item>ECG</item>
+    </string-array>
+</resources>

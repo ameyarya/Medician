@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_appointments"
+            android:title="@string/menu_appointments" />
+        <item
+            android:id="@+id/nav_reminders"
+            android:title="@string/menu_reminders" />
+        <item
+            android:id="@+id/nav_find_a_doctor"
+            android:title="@string/menu_find_a_doctor" />
+        <item
+            android:id="@+id/nav_reports"
+            android:title="@string/menu_reports" />
+        <item
+            android:id="@+id/nav_covid"
+            android:title="@string/menu_covid" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:title="@string/menu_contactUs" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:title="Log Out" />
+    </group>
+
+</menu>

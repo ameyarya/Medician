@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "472468332739",
+    "firebase_url": "https://medician-neu.firebaseio.com",
+    "project_id": "medician-neu",
+    "storage_bucket": "medician-neu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472468332739:android:4abb0b9a3e92c12de18276",
+        "android_client_info": {
+          "package_name": "com.medician"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472468332739-tg33r7pcnnea7dllf4qgjj2oo36ojq4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3Jgl-UYFwCfjvPBqxpmOMH_eIoywfGGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472468332739-tg33r7pcnnea7dllf4qgjj2oo36ojq4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

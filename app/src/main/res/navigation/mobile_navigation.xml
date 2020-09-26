@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.medician.ui.home.HomeFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_appointments"
+        android:name="com.medician.ui.appointments.AppointmentsListFragment"
+        android:label="@string/menu_appointments"
+        tools:layout="@layout/fragment_appointments" />
+
+    <fragment
+        android:id="@+id/nav_reminders"
+        android:name="com.medician.ui.reminders.RemindersFragment"
+        android:label="@string/menu_reminders"
+        tools:layout="@layout/fragment_reminders" />
+  
+    <fragment
+        android:id="@+id/nav_find_a_doctor"
+        android:name="com.medician.ui.findDoctor.FindDoctorFragment"
+        android:label="@string/menu_find_a_doctor"
+        tools:layout="@layout/fragment_find_doctor"/>
+
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.medician.ui.reportsUserList.ReportsUserListFragment"
+        android:label="@string/menu_reports"
+        tools:layout="@layout/reports_user_list_fragment" />
+
+    <fragment
+        android:id="@+id/nav_covid"
+        android:name="com.medician.ui.covid19.CovidFragment"
+        android:label="@string/menu_covid"
+        tools:layout="@layout/fragment_covid19" />
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.medician.ui.contactUs.ContactUsFragment"
+        android:label="@string/menu_contactUs"
+        tools:layout="@layout/fragment_contact_us" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.medician.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_log_out"
+        android:name="com.medician.ui.logout.LogoutFragment"
+        android:label="Log Out"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>
